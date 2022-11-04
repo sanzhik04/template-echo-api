@@ -3,7 +3,13 @@ module template-echo-api
 go 1.19
 
 require (
-	github.com/labstack/echo/v4 v4.9.1 // indirect
+	github.com/godruoyi/go-snowflake v0.0.1
+	github.com/jmoiron/sqlx v1.3.5
+	github.com/labstack/echo/v4 v4.9.1
+	github.com/lib/pq v1.10.7
+)
+
+require (
 	github.com/labstack/gommon v0.4.0 // indirect
 	github.com/mattn/go-colorable v0.1.11 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
